@@ -1,0 +1,76 @@
+// colors
+
+$primary-color: #ffffff;
+$bg-button: linear-gradient(
+  92.23deg,
+  #ff56f6 21.43%,
+  #b936ee 50.63%,
+  #3bace2 100%,
+  #406aff 117.04%
+);
+// fonts
+
+$title-font: "Orbitron";
+$primary-font: "Rajdhani";
+$secondary-font: "Inter";
+
+// sizes
+$title-size: 26.53px;
+
+// widths
+
+$min-width: 320px;
+$max-width-container: 1354px;
+
+$total-container-padding: 30px;
+$container-width: $max-width-container + $total-container-padding;
+
+$pc: $container-width;
+$tablet: 1024px;
+$mobile: 767.98px;
+$mobileSmall: 479.98px;
+$mobile-smallest: 374.98px;
+$laptop: 1440px; // laptop L
+
+// fonts
+// header - orbitron
+
+// hero SECTION: title - spartan,
+
+// description - rajdhani,
+
+// button - orbitron,
+
+// numbers - aldrich,
+
+// text under numbers - Alethia Next,
+
+// card - Rajdhani,
+
+// top nft SECTION
+
+// title,link- orbitron
+
+// card - Rajdhani
+
+// explore SECTION - orbitron
+
+//users SECTION
+// card - Rajdhani
+
+// sellers SECTION
+// title - Orbitron
+// description - Roboto
+// card - Roboto
+// button - Rajdhani
+
+// explanation SECTION
+// title - inter
+// description - inter
+
+// subscribe SECTION
+// title - orbitron
+// description - inter
+// button - inter
+
+// FOOTER - inter

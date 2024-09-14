@@ -1,0 +1,32 @@
+.button {
+  background: $bg-button;
+  padding: 10.08px 11.52px 10.08px 12.96px;
+  // max-width: 155.52px;
+  // max-height: 48.96px;
+  // width: 100%;
+  // height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 9.95px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 5.76px);
+    height: calc(100% + 5.76px);
+    background: linear-gradient(272.52deg, #ffa6fa 47.49%, #3c79d5 98.81%);
+    left: -2.88px;
+    top: -2.88px;
+    z-index: -1;
+  }
+
+  &_explore {
+    height: 64.12px;
+    width: 249.83px;
+    clip-path: polygon(0 49%, 11% 22%, 100% 25%, 100% 64%, 90% 83%, 0 84%);
+    &::before {
+      display: none;
+    }
+  }
+}
